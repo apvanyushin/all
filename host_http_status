@@ -1,5 +1,5 @@
-# /usr/bin/bash
-# for run script in the background use the command "nohup bash script.sh &"
+#!/usr/bin/env bash
+# for run script in the background use the command "nohup bash script.sh &" or use systemd
 export URL=http://www.example.com
 export token=<your_telegram_bot_token>
 export sendMessageURL=https://api.telegram.org/bot$token/sendMessage
